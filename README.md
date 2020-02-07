@@ -27,12 +27,14 @@ Angular encourages the use of TypeScript. TypeScript adds typing information to 
 - [Node-Backend](https://github.com/gelopfalcon/node-express-realworld-example-app)
      - realworldBE-deployment.yml -> It is used to create the deployment and services in Kubernetes.
 
-## CI/CD
+## Automated CI/CD
+Each commit to Angular or Node github repo will trigger a build in Jenkins.
+
 There are 2 pipelines:
 - Angular app
 - Node app
 
-My pipelines runs on Jenkins http://34.67.177.237:8080/ . If you want to have access, please let me know.
+My pipelines runs on Jenkins http://34.67.177.237:8080/ . Each project (angular and node) have its own Jenkinsfile. If you want to have access, please let me know. 
 
 ## How I solve the things requested by the challenge
 - A zero downtime release
