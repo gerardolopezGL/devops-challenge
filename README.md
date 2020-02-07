@@ -17,10 +17,15 @@ For the server, I will be using Node with Express. Express is a framework that m
 
 Angular encourages the use of TypeScript. TypeScript adds typing information to JavaScript and, *in my opinion*, is the future of developing large scale applications in JavaScript. 
 
-# Deliverables
+## Deliverables
 - [IaC repo](https://github.com/gelopfalcon/terraform-k8s-gcp)
 - [Angular-Frontend](https://github.com/gelopfalcon/angular-realworld-example-app)
+     - angular-realworld.yml -> It is used to create the deployment and services in Kubernetes.
+     - ingress.yml -> It is used to create the ingress in kubernetes
+       - `/` points to angular service
+       - `/api` points to node service
 - [Node-Backend](https://github.com/gelopfalcon/node-express-realworld-example-app)
+     - realworldBE-deployment.yml -> It is used to create the deployment and services in Kubernetes.
 
 ## CI/CD
 There are 2 pipelines:
