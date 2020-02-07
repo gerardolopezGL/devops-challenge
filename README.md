@@ -1,5 +1,5 @@
 # Devops-Gorilla-challenge
-This repo contains the findings from DevOps challenge.
+This repo contains the Deliverables from DevOps challenge.
 
 # Stack
 - Angular
