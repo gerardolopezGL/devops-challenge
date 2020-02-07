@@ -22,11 +22,14 @@ Angular encourages the use of TypeScript. TypeScript adds typing information to 
 - [Angular-Frontend](https://github.com/gelopfalcon/angular-realworld-example-app)
 - [Node-Backend](https://github.com/gelopfalcon/node-express-realworld-example-app)
 
+## CI/CD
 There are 2 pipelines:
 - Angular app
 - Node app
 
- Automated deployment upon code commit to an environment.
+My pipelines runs on Jenkins http://34.67.177.237:8080/ . If you want to have access, please let me know.
+
+## How I solve the things resolved by the challenge
 - A zero downtime release
   - Rollback strategy in Kubernetes: Zero unavailable pods.
   - livenessProbe to check if a pod needs being restarted.
