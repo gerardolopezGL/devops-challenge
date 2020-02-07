@@ -22,6 +22,10 @@ Angular encourages the use of TypeScript. TypeScript adds typing information to 
 - [Angular-Frontend](https://github.com/gelopfalcon/angular-realworld-example-app)
 - [Node-Backend](https://github.com/gelopfalcon/node-express-realworld-example-app)
 
+There are 2 pipelines:
+- Angular app
+- Node app
+
  Automated deployment upon code commit to an environment.
 - A zero downtime release
   - Rollback strategy in Kubernetes: Zero unavailable pods.
