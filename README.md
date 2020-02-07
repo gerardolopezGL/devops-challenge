@@ -34,7 +34,7 @@ There are 2 pipelines:
 
 My pipelines runs on Jenkins http://34.67.177.237:8080/ . If you want to have access, please let me know.
 
-## How I solve the things resolved by the challenge
+## How I solve the things requested by the challenge
 - A zero downtime release
   - Rollback strategy in Kubernetes: Zero unavailable pods.
   - livenessProbe to check if a pod needs being restarted.
