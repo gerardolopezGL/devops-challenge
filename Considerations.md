@@ -8,6 +8,9 @@ Processes around governance, auditing and compliance are a sign of the growing m
 ## Security
 It goes without saying that security is a critical part of cloud native applications and needs to be considered and designed for from the very start. Security is a constant throughout the container lifecycle and it affects the design, development, DevOps practices and infrastructure choice for your container-based application. A range of technology choices is available to cover various areas such as application-level security and the security of the container and infrastructure itself. There range from using role-based access control, multifactor authentication (MFA), A&A (Authentication & Authorization) using protocols such as OAuth, OpenID, SSO etc.; Different tools that provide certification and security for what goes inside the container itself (such as image registry, image signing, packaging), CVE scans, and more.
 
+## Automatic Rollbacks in Jenkins builds
+If one build failed after deploy in one ENV, our CI/CD should rollback the ENV to previous version.
+
 ## Automate IaC builds with Jenkins
 
 ## Cluster Provisioning as Ansible
