@@ -38,5 +38,5 @@ There are 2 pipelines:
    - Terraform
    - Packer
 - High availability, Load balanced and TLS secured solution
-   - Kubernetes regional cluster. 3 regions, 2 nodes per region.
+   - Kubernetes regional cluster. 3 zones, 2 nodes per zone.
    - Ingress to manage the traffic of our services
